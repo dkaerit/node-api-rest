@@ -3,7 +3,7 @@ const bodyparser = require('body-parser');
 require('dotenv').config();
 
 // DATOS DEL SERVIDOR
-const PORT = process.env.PORT || 8081;        // Puerto
+const PORT = process.env.PORT || 8081;          // Puerto
 const HOST = process.env.HOST || '127.0.0.1';   // IP del servidor
 
 // MIDDLEWARES
